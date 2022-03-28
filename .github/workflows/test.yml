@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: Datadog-test
+name: docker-compose nginx test
 
 # Controls when the workflow will run
 on:
@@ -35,5 +35,3 @@ jobs:
       - name: Run a multi-line script
         run: |
           curl localhost:8080
-
-      - uses: caquino/dpm@main
